@@ -1,0 +1,15 @@
+name: Saluda
+
+on:
+  push:
+    branches:
+      - main
+      
+
+jobs:
+  hello-world:
+    runs-on: ubunto-18.04
+    steps:
+      - names: Primer saludo
+        run: |
+          echo "Hola Abraham"
